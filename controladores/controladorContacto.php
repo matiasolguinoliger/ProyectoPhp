@@ -28,6 +28,6 @@ catch(PDOException $e)
     {
     echo "Connection fallida: " . $e->getMessage();
     }
-header("Location:/contacto.php");
+//header("Location:/contacto.php");
 
 ?>
